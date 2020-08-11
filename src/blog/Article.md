@@ -1,7 +1,7 @@
 ---
 title: My first article
 description: Basic intro to vuepress
-author: Preetish HS
+author: Cuong Tran
 type: article
 ---
 
