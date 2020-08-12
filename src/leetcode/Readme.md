@@ -1,2 +1,0 @@
-# Leetcode submissions
-<LeetcodePosts />
