@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'Cuong Tran',
-    photo: '/7048735.jpeg',
+    photo: '/photo.jpeg',
     bio: 'Frontend Developer',
     contacts: {
       email: '',
