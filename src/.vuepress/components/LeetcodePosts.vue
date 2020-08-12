@@ -18,7 +18,8 @@ export default {
         }
     },
     mounted() {
-        this.pages = this.$site.pages.filter(x => x.frontmatter.type === 'leetcode');
+        this.pages = this.$site.pages.filter(x => x.frontmatter.tag === 'leetcode');
+        console.log(this.pages);
     }
 }
 </script>
