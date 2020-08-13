@@ -1,6 +1,6 @@
 ---
 template: post
-title: "Leetcode #34. Find First and Last Position of Element in Sorted Array"
+title: "Leetcode #34: Find First and Last Position of Element in Sorted Array"
 slug: Leetcode-34-Find-First-and-Last-Position-of-Element-in-Sorted-Array
 draft: false
 date: 2020-08-13T04:40:33.116Z
