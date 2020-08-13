@@ -4,19 +4,17 @@ title: "Leetcode #34. Find First and Last Position of Element in Sorted Array"
 slug: Leetcode-34-Find-First-and-Last-Position-of-Element-in-Sorted-Array
 draft: false
 date: 2020-08-13T04:40:33.116Z
-description: >-
-  Given an array of integers nums sorted in ascending order, find the starting
-  and ending position of a given target value.
-
-
-  Your algorithm's runtime complexity must be in the order of O(log n).
-
-
-  If the target is not found in the array, return [-1, -1].
+description: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 category: Leetcode
 tags:
   - leetcode
 ---
+Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+
+Your algorithm's runtime complexity must be in the order of O(log n).
+
+If the target is not found in the array, return [-1, -1].
+
 ```javascript
 /**
  * @param {number[]} nums
