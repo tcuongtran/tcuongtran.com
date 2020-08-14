@@ -1,6 +1,6 @@
 ---
 template: post
-title: "Leetcode #31: Next Permutation"
+title: "Leetcode #31. Next Permutation"
 slug: leetcode-31-next-permutation
 draft: false
 date: 2020-08-12T04:38:43.445Z
