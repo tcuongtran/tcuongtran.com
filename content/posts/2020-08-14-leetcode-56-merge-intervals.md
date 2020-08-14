@@ -9,6 +9,8 @@ category: Leetcode
 tags:
   - leetcode
 ---
+### Leetcode #56. Merge Intervals
+
 Given a collection of intervals, merge all overlapping intervals.
 ```javascript
 /**
