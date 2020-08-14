@@ -4,14 +4,14 @@
   "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
   "main": "n/a",
   "scripts": {
-    "develop": "yarn run clean && gatsby develop",
+    "develop": "npm run clean && gatsby develop",
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
     "lint:scss": "stylelint \"src/**/*.scss\"",
-    "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\" \"yarn flow\"",
+    "lint": "concurrently \"npm run lint:js\" \"npm run lint:scss\" \"npm flow\"",
     "test": "jest --config ./jest/jest-config.js",
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
@@ -79,7 +79,8 @@
     "react": "^16.13.1",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.13.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-linkify": "^1.0.0-alpha"
   },
   "devDependencies": {
     "@babel/core": "7.10.5",
