@@ -12,5 +12,8 @@
     "devDependencies": {
         "@vuepress/theme-blog": "^2.3.0",
         "vuepress": "^1.5.3"
+    },
+    "dependencies": {
+        "vuepress": "^1.5.3"
     }
 }

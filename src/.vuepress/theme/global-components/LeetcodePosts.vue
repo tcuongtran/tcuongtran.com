@@ -18,8 +18,15 @@ export default {
         }
     },
     mounted() {
-        this.pages = this.$site.pages.filter(x => x.frontmatter.tag === 'leetcode');
-        console.log(this.pages);
+        this.pages = this.$site.pages.filter(x => x.frontmatter.tag === 'leetcode').sort((a, b) => {
+            return new Date(b.frontmatter.published).getTime() - new Date(a.frontmatter.published).getTime();
+        });
     }
 }
 </script>
+
+<style lang="stylus" scoped>
+.page-title {
+    font-size: 25px;
+}
+</style>

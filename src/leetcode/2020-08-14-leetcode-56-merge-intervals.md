@@ -34,3 +34,5 @@ var merge = function(intervals) {
     return intervals;
 };
 ```
+
+<!-- more -->
