@@ -18,7 +18,9 @@ export default {
         }
     },
     mounted() {
-        this.pages = this.$site.pages.filter(x => x.frontmatter.type === 'posts');
+        this.pages = this.$site.pages.filter(x => x.frontmatter.type === 'posts').sort( (a, b) => {
+            return (new Date(b.frontmatter.published)) - (new Date(a.frontmatter.published));
+        });
     }
 }
 </script>
